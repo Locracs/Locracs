@@ -8,7 +8,7 @@
 #define SCREEN_WIDTH 128  // Display-Breite
 #define SCREEN_HEIGHT 64  // Display-Höhe
 #define OLED_RESET    -1  // Reset-Pin (nicht verwendet)
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET); 
 
 SCD30 airSensor;
 
